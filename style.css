@@ -4,36 +4,44 @@ background-color:black;
 
  h1 {
 color:black;
-font-size:80px;
+font-size:100px;
 text-align: center;
  font-family: "Archivo Black", sans-serif;
   font-weight: 400;
   font-style: normal;
-  -webkit-text-stroke: 4px #b759ff;
+   background-image: linear-gradient(to right,#f5e8ff, #efdbff, #b759ff,#9e1fff);
+    background-clip: text;
+  -webkit-background-clip: stroke;
+    color: transparent;
+    -webkit-text-fill-color: transparent; 
  }
 
  h2 {
-color:black;
-font-size: 40px;
+font-size: 70px;
  font-family: "Archivo Black", sans-serif;
   font-weight: 400;
   font-style: normal;
   text-align: center;
-  -webkit-text-stroke: 2px #b759ff;
+   background-image: linear-gradient(to right,#ffffff,#9e1fff);
+    background-clip: text;
+  -webkit-background-clip: stroke;
+    color: transparent;
+    -webkit-text-fill-color: transparent; 
  }
 
 
  h3 {
-color:#b759ff;
-font-size: 40px;
+font-size: 50px;
  font-family: "Archivo Black", sans-serif;
   font-weight: 100;
   font-style: normal;
   text-align: center;
+    background-image: linear-gradient(to right,#f5e8ff, #efdbff, #b759ff,#9e1fff);
+    background-clip: text;
+  -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent; 
  }
-
-
-
 
 
  ul {
@@ -42,7 +50,7 @@ font-size: 40px;
   padding: 40px;
   overflow: hidden;
   background-color: black;
-  background-image: linear-gradient(to bottom,#b759ff,#030517, black);
+  background-image: linear-gradient(to bottom,#efdbff,#b759ff,#030517, black);
 }
 
 li {
@@ -66,10 +74,11 @@ li a:hover {
 }
 
 input {
+  display:block;
  font-family: 'Poppins', sans-serif;
   border-radius: 40px;
   padding: 15px 25px;
- border: 2px solid ,#b759ff;
+ border: 4px solid ,#b759ff;
  background-color:black;
   width: 70%;
   max-width: 500px;
@@ -79,3 +88,25 @@ input {
    color: white;
 }
 
+input:hover {
+   border: 4px solid, #ffffff;
+}
+
+ h4 {
+color:white;
+font-size:40px;
+text-align: center;
+ font-family: "Archivo Black", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+    margin-top: -70px;
+ }
+
+ img {
+display:block;
+margin-left: auto;
+margin-right: auto;
+ filter: drop-shadow(0 0 100px #a10aff); /* Green glow effect */
+  width: auto; /* Adjust size as needed */
+  height: auto;
+ }
