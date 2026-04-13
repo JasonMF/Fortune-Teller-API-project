@@ -1,5 +1,6 @@
  body {
 background-color:black;
+width: 100%;
  }
 
  h1 {
@@ -109,4 +110,17 @@ margin-right: auto;
  filter: drop-shadow(0 0 100px #a10aff); /* Green glow effect */
   width: auto; /* Adjust size as needed */
   height: auto;
+ }
+
+ @media only screen and (max-width: 600px){
+  h1{
+font-size:55px;
+margin-bottom: 100px;
+  }
+ul {
+  width:90%;
+}
+h3{
+  font-size:45px;
+}
  }
